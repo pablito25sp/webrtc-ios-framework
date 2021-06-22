@@ -1,6 +1,6 @@
-# WebRTC m84 iOS arm64 binary
+# WebRTC m84 iOS arm64/x86_64 binary
 
-This is WebRTC framework in XCFramework format for iOS arm64.
+This is WebRTC framework in XCFramework format for iOS arm64/x86_64.
 
 Google provides the official builds for iOS, if all you need is iOS build, get it from Google:
 
@@ -9,9 +9,8 @@ Google provides the official builds for iOS, if all you need is iOS build, get i
 
 ## Manual Installation
 
-### Swift Package Manager 
+### Swift Package Manager
 
 Requires Swift 5.3 / Xcode 12+.
 
-Add WebRTC repository https://github.com/pablito25sp/webrtc-ios-framework.git via Swift Package Manager, and set Branch to m84.
-  
+Add WebRTC repository https://github.com/pablito25sp/webrtc-ios-framework.git via Swift Package Manager.
